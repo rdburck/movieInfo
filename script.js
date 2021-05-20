@@ -11,7 +11,7 @@ $(document).ready(() => {
 
 function getMovies(searchText){
     let api = 'c2762c91';
-    let url = 'http://www.omdbapi.com/?apikey='+api;
+    let url = 'https://www.omdbapi.com/?apikey='+api;
     let result = '';
     $.ajax({
         method:'GET',
